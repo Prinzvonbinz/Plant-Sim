@@ -28,7 +28,7 @@ const allPlants = [
   { id: 26, name: "Funkengras", description: "Produziert kleine, harmlose Funken." },
   { id: 27, name: "Pustelpilz", description: "Wirkt unangenehm, heilt aber Hautprobleme." },
   { id: 28, name: "Rätselranke", description: "Wächst nie gleich – immer neues Muster." },
-  { id: 29, name: "Ewigblüte", description: "Verblüht nie – auch nicht in der Kälte." }
+  { id: 29, name: "Ewigblüte", description: "Verblüht nie – auch nicht in der Kälte." }, 
 { id: 30, name: "Wisperkraut", description: "Flüstert uralte Pflanzengeheimnisse in den Wind." },
 { id: 31, name: "Tanzwurz", description: "Wackelt rhythmisch, wenn Musik spielt." },
 { id: 32, name: "Staubblatt", description: "Verteilt leuchtenden Staub bei jeder Bewegung." },
