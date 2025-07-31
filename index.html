@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Plant-Simulator 🌱</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌱 Plant-Simulator</h1>
+    
+    <div class="plant-area">
+      <div id="pot" class="pot" onclick="plantSeed()">
+        <span id="plant-text">🪴 Klicke zum Pflanzen</span>
+      </div>
+      <div id="timer" class="timer">⏱️ 60:00</div>
+      <div id="status" class="status"></div>
+    </div>
+
+    <button onclick="togglePokedex()">📖 Pflanzikon</button>
+
+    <div id="pokedex" class="pokedex hidden"></div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
