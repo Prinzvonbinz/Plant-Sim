@@ -117,7 +117,7 @@ function updateUI() {
     const secs = Math.floor((remaining % 60000) / 1000);
     timerEl.textContent = `⏱️ ${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
     document.getElementById("plant-text").textContent = "🌱 Pflanze wächst...";
-    statusEl.textContent = (hour >= 6 && hour < 18) ? "☀️ Tageslicht beschleunigt Wachstum!" : "🌙 Nachts wächst sie langsamer.";
+    statusEl.textContent = (hour >= 6 && hour < 18) ? "☀️ Tageslicht beschleunigt Wachstum!" : "🌙 Nachts wächst sie normal.";
   } else {
     document.getElementById("plant-text").textContent = "🪴 Klicke zum Pflanzen";
     statusEl.textContent = "Pflanze geerntet – du kannst neu pflanzen!";
